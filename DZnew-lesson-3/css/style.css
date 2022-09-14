@@ -10,6 +10,8 @@
 }
 
 
+
+
 header {
   background-color: #222222;
 }
@@ -18,6 +20,8 @@ header {
   width: 1140px;
   margin: 0 auto;
 }
+
+
 
 .wrap {
   display: flex;
@@ -174,6 +178,8 @@ header {
   font-weight: 700;
   font-family: "Lato";
 }
+
+
 
 .cklick :hover {
   outline: 3px solid blue;
@@ -817,7 +823,8 @@ input {
 }
 
 .fam {
-  color: #000;
+  color: #222224;
+
 }
 
 .fam:hover {
@@ -958,6 +965,7 @@ input {
 }
 
 .texty {
+
   padding-top: 94px;
   width: 652px;
   font-family: 'Lato';
@@ -983,12 +991,17 @@ input {
 
 .texty li {
   list-style-type: none;
-  display: inline;
+  margin-top: 15px;
+
 
 
 }
 
-.pa {
+.texty p {
+  margin-top: 15px;
+}
+
+.texty li p {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
@@ -1002,9 +1015,10 @@ input {
 
 }
 
-.texty li p {
+.texty li span {
 
   margin-left: 20px;
+  padding-top: 15px;
 
 
 }
@@ -1102,5 +1116,10 @@ input {
 }
 
 .center:hover .devw {
-  transform: scale(1, 2);
+  transform: scale(2, 2);
+}
+
+.brawse:hover {
+
+  transform: rotate(15deg);
 }
