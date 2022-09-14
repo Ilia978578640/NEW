@@ -10,14 +10,19 @@
 }
 
 
+
+
+
 header {
   background-color: #222222;
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
+
+
 
 .wrap {
   display: flex;
@@ -57,6 +62,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+
 }
 
 .link_heading {
@@ -73,8 +80,13 @@ header {
 }
 
 .leftman {
-  width: 800px;
+  max-width: 800px;
   height: 764px;
+}
+
+.tor {
+  width: 100%;
+  min-height: 111px;
 }
 
 .texth1 {
@@ -112,12 +124,14 @@ header {
 }
 
 .itemdown {
+
   margin-top: 30px;
+  max-width: 1140px;
 }
 
-.item {
+.itema {
   position: relative;
-  width: 100%;
+
 }
 
 .item_box {
@@ -175,8 +189,11 @@ header {
   font-family: "Lato";
 }
 
+
+
 .cklick :hover {
   outline: 3px solid blue;
+  max-width: 1140px;
 }
 
 .mega_link_box {
@@ -184,6 +201,7 @@ header {
   padding-left: 34px;
   padding-bottom: 157px;
   display: none;
+
 }
 
 .right {
@@ -207,7 +225,7 @@ header {
   font-size: 14px;
   line-height: 17px;
   color: #F16D7F;
-  width: 55px;
+  max-width: 55px;
   border-bottom: 1px solid #e8e8e8;
   padding-bottom: 5px;
   margin-bottom: 11px;
@@ -223,6 +241,7 @@ header {
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
+
 }
 
 .mega_link:hover {
@@ -235,11 +254,12 @@ header {
 
 .wrap :hover .mega_link_box {
   display: flex;
+
+
 }
 
 .fetuted {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -249,8 +269,7 @@ header {
 }
 
 .description {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-bottom: 60px;
   font-family: "Lato";
   font-style: normal;
@@ -266,7 +285,7 @@ header {
 }
 
 .item {
-  width: 360px;
+  width: 33%;
   position: relative;
   margin-bottom: 30px;
 }
@@ -319,6 +338,7 @@ header {
 
 .item :hover .item-pic {
   filter: brightness(30%);
+  transition-duration: 0.6s;
 }
 
 .add {
@@ -357,6 +377,7 @@ header {
 
 .add:hover {
   box-shadow: 0px 0px 10px 0px #fff;
+  transition-duration: 0.3s;
 }
 
 .item:hover .add-box {
@@ -393,6 +414,7 @@ header {
 .brawse :hover {
   background: #F16D7F;
   color: #FFFFFF;
+  transition-duration: 0.6s;
 }
 
 .footer {
@@ -476,7 +498,7 @@ header {
 .form {
   display: block;
   outline: none;
-  width: 322px;
+  width: 310px;
   height: 49px;
   text-align: center;
   line-height: 49px;
@@ -565,6 +587,7 @@ input {
 .fa1 :hover {
   color: white;
   background: #F16D7F;
+  transition-duration: 0.9s;
 }
 
 .new {
@@ -596,9 +619,11 @@ input {
   color: #F16D7F;
 }
 
-.NEW {
-  color: rgb(241, 109, 127);
+.new1 a {
+  text-decoration: none;
 }
+
+
 
 .home {
   font-family: "Lato";
@@ -606,6 +631,37 @@ input {
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
+  color: #636363;
+}
+
+.men11 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+}
+
+.NEW {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+  color: rgb(241, 109, 127);
+}
+
+.qw1 :hover {
+  color: #E05C6E;
+}
+
+.qw2 :hover {
+  color: #E05C6E;
+}
+
+.qw3 :hover {
   color: #636363;
 }
 
@@ -636,7 +692,7 @@ input {
   font-size: 47px;
 }
 
-.fas {
+.faqt {
   color: #EF5B70;
   font-size: 25px;
   padding-left: 25px;
@@ -650,6 +706,19 @@ input {
   font-size: 16px;
   line-height: 19px;
   color: #F26376;
+}
+
+.cart-box:hover .faqt {
+  color: #FFFFFF;
+}
+
+.cart-box:hover .Add_to {
+  color: #FFFFFF;
+}
+
+.cart:hover {
+  background-color: #E05C6E;
+  transition-duration: 0.9s;
 }
 
 .sev {
@@ -785,7 +854,7 @@ input {
 }
 
 .videio_item {
-  width: 360px;
+  width: 100%;
   height: 576px;
 }
 
@@ -808,19 +877,24 @@ input {
   border-radius: 50%;
 }
 
-.pagination ul a span {
+.numb {
   color: rgb(196, 196, 196);
+}
+
+.numb1 {
+  color: #E05C6E;
 }
 
 .numb:hover {
   color: #E05C6E;
 }
 
-.fam {
-  color: #000;
+.fa-sharp {
+  font-size: 16px;
+
 }
 
-.fam:hover {
+.fa-sharp:hover {
   color: #E05C6E;
 }
 
@@ -860,6 +934,7 @@ input {
   background: #FFFFFF;
   padding-left: 16px;
   padding-right: 186px;
+
 }
 
 .mega_lin_box {
@@ -872,6 +947,7 @@ input {
   line-height: 17px;
   color: #6F6E6E;
   line-height: 25px;
+  transition-duration: 2s;
 }
 
 .link_headin {
@@ -890,6 +966,7 @@ input {
 
 .filters:hover .mega_links_box {
   display: block;
+
 }
 
 .filter :hover {
@@ -958,6 +1035,7 @@ input {
 }
 
 .texty {
+
   padding-top: 94px;
   width: 652px;
   font-family: 'Lato';
@@ -983,12 +1061,17 @@ input {
 
 .texty li {
   list-style-type: none;
-  display: inline;
+  margin-top: 15px;
+
 
 
 }
 
-.pa {
+.texty p {
+  margin-top: 15px;
+}
+
+.texty li p {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
@@ -1002,9 +1085,10 @@ input {
 
 }
 
-.texty li p {
+.texty li span {
 
   margin-left: 20px;
+  padding-top: 15px;
 
 
 }
@@ -1101,6 +1185,236 @@ input {
   color: #FFFFFF;
 }
 
+.join:hover .join_to {
+  color: #EF5B70;
+
+}
+
+.join:hover .fas {
+  color: #EF5B70;
+}
+
+.join:hover {
+  background-color: #FFFFFF;
+  transition-duration: 0.8s;
+}
+
 .center:hover .devw {
-  transform: scale(1, 2);
+  transform: scale(1.3, 1.3);
+  transition-duration: 0.8s;
+}
+
+.brawse:hover {
+
+  transform: rotate(15deg);
+}
+
+.cardd {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 96px;
+
+}
+
+.leftcard {
+  margin-bottom: 89px;
+}
+
+.leftup {
+  display: flex;
+  height: 306px;
+}
+
+.leftup img {
+  height: 306px;
+}
+
+.mango1 {
+  padding-top: 21px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #222222;
+
+}
+
+.imageuptxt {
+  padding-left: 31px;
+
+
+}
+
+.imagedawntxt {
+  padding-left: 31px;
+
+}
+
+.txxxt {
+  padding-top: 42px;
+}
+
+.txxxt p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #575757;
+
+}
+
+.leftdawn {
+  display: flex;
+  height: 306px;
+  margin-top: 40px;
+}
+
+.leftdawn img {
+  height: 306px;
+}
+
+.GET {
+  border: 1px solid #A4A4A4;
+  padding: 10px 15px;
+  margin-top: 24px;
+
+}
+
+.geta {
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+.getaa {
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #4A4A4A;
+}
+
+.inputsup input {
+  margin-top: 20px;
+}
+
+.PROCEED {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 39px;
+  padding-left: 44px;
+
+
+
+
+
+
+}
+
+.pross {
+  border: 1px solid rgb(241, 109, 127);
+  background-color: #F16D7F;
+  padding: 15px 43px 16px 43px;
+  margin-bottom: 42px;
+
+
+
+}
+
+.nine {
+  color: rgba(241, 109, 127, 1);
+}
+
+.prossee {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+}
+
+.qwertys:hover .pross {
+  background-color: white;
+  transition-duration: 0.9s;
+}
+
+.qwertys:hover .prossee {
+  color: rgba(241, 109, 127, 1);
+}
+
+.clear {
+
+  border: 1px solid #A4A4A4;
+
+
+  padding: 17px 41px;
+
+}
+
+.cle {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+
+
+
+  color: #000000;
+}
+
+.qwerty {
+
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.qwertys {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 39px;
+  padding-left: 44px;
+
+}
+
+.textinputdawn {
+
+  max-width: 360px;
+  height: 214px;
+  background: #F5F3F3;
+  margin-top: 42px;
+}
+
+.textin {
+  text-align: right;
+  padding-top: 39px;
+  padding-right: 34px;
+
+}
+
+.PROCEED:hover .clear {
+  background-color: #E05C6E;
+  transition-duration: 0.9s;
+
+
+}
+
+.PROCEED:hover .cle {
+  color: #F5F3F3;
+}
+
+.geta:hover .GET {
+  background-color: #E05C6E;
+  transition-duration: 0.9s;
 }
